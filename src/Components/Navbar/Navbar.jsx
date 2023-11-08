@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import './Navbar.css'
 
 import { langContext } from '../../Context/LangContext'
+import ImageComp from '../ImageComp/ImageComp'
 
 
 
@@ -19,6 +20,7 @@ const Navbar = ({contactDetails}) => {
     <nav className="">
 
       <h1>Hello</h1>
+      
 
 
     

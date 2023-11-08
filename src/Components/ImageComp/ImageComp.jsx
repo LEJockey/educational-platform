@@ -1,5 +1,3 @@
-
-
 import React, { useEffect, useState } from 'react';
 import Skeleton from 'react-loading-skeleton';
 
@@ -17,7 +15,7 @@ const ImageComp = ({ src, alt }) => {
 
   return (
     <>
-       {!imgLoaded && (
+      {!imgLoaded && (
         <div style={{width: '100%', height: '100%' }}>
           <Skeleton width='100%' height="100%" />
         </div>
