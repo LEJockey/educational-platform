@@ -21,7 +21,6 @@ body {
 .yellow-color{
   color: var(--yellow-color);
 }
-
 .yellow-bg{
   background-color: var(--yellow-color);
 }
@@ -31,7 +30,15 @@ body {
 .green-color{
   color: var(--green-color);
 }
-
 .green-bg{
   background-color: var(--green-color);
+}
+
+/* Blue Color & Background */
+
+.blue-color{
+  color: var(--blue-color);
+}
+.blue-bg{
+  background-color: var(--blue-color);
 }
