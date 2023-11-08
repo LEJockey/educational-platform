@@ -2,12 +2,12 @@
 :root {
   --black-color: #000;
   --white-color: #fff;
-  --blue-color: #00204A;
-  --green-color: #306C62;
-  --yellow-color: #F8B401;
+  --blue-color: #00204a;
+  --green-color: #306c62;
+  --yellow-color: #f8b401;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -18,27 +18,27 @@ body {
 
 /* Yellow Color & Background */
 
-.yellow-color{
+.yellow-color {
   color: var(--yellow-color);
 }
-.yellow-bg{
+.yellow-bg {
   background-color: var(--yellow-color);
 }
 
 /* Green Color & Background */
 
-.green-color{
+.green-color {
   color: var(--green-color);
 }
-.green-bg{
+.green-bg {
   background-color: var(--green-color);
 }
 
 /* Blue Color & Background */
 
-.blue-color{
+.blue-color {
   color: var(--blue-color);
 }
-.blue-bg{
+.blue-bg {
   background-color: var(--blue-color);
 }

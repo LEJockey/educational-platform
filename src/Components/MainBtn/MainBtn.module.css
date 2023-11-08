@@ -1,0 +1,17 @@
+.mainBtn {
+  border-radius: 65px;
+  background: var(--Yellow, #f8b401);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: Arial;
+  color: var(--white, var(--white, #fff));
+  text-align: center;
+  cursor: pointer;
+  /* width: 123px;
+  height: 40px;
+   */
+  padding: 10px 25px;
+  border: none;
+}
