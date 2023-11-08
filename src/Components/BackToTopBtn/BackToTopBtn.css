@@ -1,0 +1,26 @@
+.upBtn {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999999;
+    border: none;
+    border-radius: 50%;
+    color: var(--whiteColor);
+    transition: all .5s ;
+    background-color: var(--mainColor);
+}
+.upBtn:hover{
+    background-color: var(--goldheadBG);
+}
+
+.upBtn.hidden {
+    opacity: 0;
+    right: -30px;
+    bottom: -30px;
+}
