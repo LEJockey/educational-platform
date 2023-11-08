@@ -1,0 +1,11 @@
+.main-header{
+    background: linear-gradient(89deg, rgba(19, 92, 81, 0.60) 28.11%, rgba(19, 92, 81, 0.00) 98.5%), url(../../assests/main-home.png), lightgray -252.759px 3px / 136.151% 100.399% no-repeat;;
+}
+.main-header h1{
+    color: var(--white-color);
+    width: 50%;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

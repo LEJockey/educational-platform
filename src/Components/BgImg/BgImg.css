@@ -1,18 +1,34 @@
+
 .custom-img{
-    width: 18rem;
-    height: 18rem;
     position: relative;
     z-index: 1;
 }
-.custom-img img{
-}
+
 .custom-img::before{
     content: "";
     position: absolute;
     background-color: var(--green-color);
-    right: -27px;
-    width: 60%;
+    right: -1.5rem;
+    width: 70%;
     height: 100%;
-    z-index: 0;
-    top: -27px;
+    z-index: -1;
+    top: 1.5rem;
+}
+
+.custom-img::after{
+    content: "";
+    position: absolute;
+    background-color: var(--green-color);
+    left: -1.5rem;
+    width: 70%;
+    height: 100%;
+    z-index: -1;
+    top: 1.5rem;
+}
+
+.custom-img.left::after{
+    display: none;
+}
+.custom-img.right::before{
+    display: none;
 }

@@ -11,12 +11,12 @@
     z-index: 999999;
     border: none;
     border-radius: 50%;
-    color: var(--whiteColor);
+    color: var(--white-color);
     transition: all .5s ;
-    background-color: var(--mainColor);
+    background-color: var(--yellow-color);
 }
 .upBtn:hover{
-    background-color: var(--goldheadBG);
+    background-color: var(--green-color);
 }
 
 .upBtn.hidden {

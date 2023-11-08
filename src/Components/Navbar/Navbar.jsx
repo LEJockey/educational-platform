@@ -17,7 +17,7 @@ const Navbar = ({contactDetails}) => {
     <>
     
     
-    <nav className="">
+    <nav className="navbar navbar-expand-md  navbar-dark fixed-top py-0 ">
 
       <h1>Hello</h1>
       
