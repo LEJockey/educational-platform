@@ -1,0 +1,31 @@
+.foot__link {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  background: #306c62;
+}
+.foot__link h2 {
+  color: var(--white, #fff);
+
+  font-family: 'Tajawal', sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+.foot__link .links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.foot__link .links li {
+  list-style: none;
+  color: var(--white, var(--white, #fff));
+  font-family: Tajawal;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.8px; /* 180% */
+  text-decoration-line: underline;
+}
