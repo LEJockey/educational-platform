@@ -1,18 +1,13 @@
 import React from 'react'
 import './EvidenceDesc.css'
+import parse from 'html-react-parser';
 
-const EvidenceDesc = ({title='', desc='', list1='', list2='', list3='', desc2='', className}) => {
+const EvidenceDesc = ({title='', desc=''}) => {
   return (
     <div className='evidence-comp'>
         <h3>{title}</h3>
         <div className='evidence-desc position-relative ps-3'>
-            <p>{desc}</p>
-            <ul className={className}>
-                <li>{list1}</li>
-                <li>{list2}</li>
-                <li>{list3}</li>
-            </ul>
-            <p>{desc2}</p>
+            <p>{parse(desc)}</p>
         </div>
 
     </div>

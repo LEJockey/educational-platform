@@ -1,0 +1,41 @@
+.bg-card h5{
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8rem;
+    color: #5F6C76;
+    margin: .6rem 0;
+}
+
+.bg-card h3{
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.375rem;
+    color: #5F6C76;
+}
+.slick-slider{
+    padding: 0 !important;
+}
+
+.slick-dots{
+    bottom: -3rem !important;
+}
+.slick-dots li button:before {
+    background-color: #214A4A !important;
+    content: '' !important;
+    width: .5rem !important;
+    height: .5rem !important;
+    border-radius: 50%;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    border-radius: .6rem !important;
+    width: 1.5rem !important;
+    background-color: #214A4A !important;
+}
+
+li.slick-active{
+    margin-right: 1rem !important;
+}

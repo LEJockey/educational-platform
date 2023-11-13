@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Skeleton from 'react-loading-skeleton';
 
-const ImageComp = ({ src, alt }) => {
+const ImageComp = ({ src, alt, imgStyle }) => {
   const [imgLoaded, setImgLoaded] = useState(false);
 
   useEffect(() => {
@@ -23,7 +23,7 @@ const ImageComp = ({ src, alt }) => {
       <img
         src={src}
         alt={alt}
-        style={{ display: imgLoaded ? 'inline-block' : 'none' }}
+        style={{ display: imgLoaded ? 'inline-block' : 'none', ...imgStyle }}
       />
     </>
   );

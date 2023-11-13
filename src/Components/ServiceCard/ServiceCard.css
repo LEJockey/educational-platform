@@ -1,4 +1,81 @@
 .service-card{
     background-color: var(--white-color);
-    
+    box-shadow: 0px 0px 50px 10px rgba(95, 45, 237, 0.10);
+    transition: all .3s;
+    border-radius: 0.625rem;
+}
+.serviceIcon-box{
+    width: 3.75rem;
+    height: 3.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--green-color);
+}
+.service-icon{
+    font-size: 1.5rem;
+    color: var(--white-color);
+    transition: all .3s;
+}
+.serviceNo-box{
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 4.8rem;
+    color: var(--gray-color);
+    transition: all .3s;
+}
+
+.service-card h2{
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black-color);
+    transition: all .3s;
+}
+
+.service-card p{
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 1.7rem;
+    color: var(--darkGray-color);
+    transition: all .3s;
+}
+
+.service-card a{
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    text-decoration: none;
+    color: var(--black-color);
+    transition: all .3s;
+}
+
+.service-card:hover{
+    background-color: var(--green-color);
+}
+
+.service-card:hover .serviceIcon-box{
+    background-color: var(--white-color);
+}
+.service-card:hover .service-icon{
+    color: var(--green-color);
+}
+.service-card:hover .serviceNo-box{
+    color: var(--white-color);
+}
+.service-card:hover h2{
+    color: var(--white-color);
+}
+.service-card:hover p{
+    color: var(--white-color);
+}
+.service-card:hover a{
+    color: var(--white-color);
+}
+.service-card a:hover {
+    color: var(--yellow-color);
 }

@@ -1,0 +1,30 @@
+form {
+    font-size: 1rem;
+}
+
+input{
+    color: #ACACAC !important;
+    /* border-color: #ACACAC; */
+    width: 25rem !important;
+    background-color: var(--white-color) !important;
+}
+.form-floating>label{
+    font-size: .92em;
+    width: fit-content;
+    height: fit-content;
+    color: #ACACAC !important;
+    background-color: transparent !important;
+}
+
+.form-floating>.form-control:focus~label::after{
+    color: #ACACAC !important;
+    background-color: transparent !important;
+}
+
+.form-control{
+    border-radius: 0.9375rem;
+    border: 1px solid #ACACAC !important;
+}
+.form-control:focus{
+    box-shadow: none !important;
+}

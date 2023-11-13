@@ -1,0 +1,101 @@
+.multi-form input, .multi-form #inputGroupSelect01 {
+    width: 100% !important;
+}
+/* .form-floating>.form-select~label{
+    transform: none !important;
+}
+
+.multi-form #floatingSelect:focus>label{
+    transform: scale(.85) translateY(-0.5rem) translateX(0.15rem);
+} */
+
+.multi-form #inputGroupSelect01 option:hover{
+    background-color: #214A4A !important;
+}
+
+.PhoneInput, .form-select{
+    border: none;
+    padding: 16px 12px !important;
+}
+.PhoneInputInput{
+    border: none;
+}
+
+.PhoneInputInput:focus-visible{
+    border: none !important;
+    outline: none !important;
+}
+.PhoneInputCountryIcon--border{
+    box-shadow: none !important;
+}
+
+.rec{
+    width: 1.875rem;
+    height: 0.3125rem;
+    border-radius: 0.5rem;
+    background: #ACACAC;
+}
+
+.active-rec{
+    width: 3.125rem;
+    height: 0.3125rem;
+    border-radius: 0.5rem;
+    background: #214A4A ;
+}
+
+@media screen and(max-width: 1200px) {
+    .active-rec{
+        width: 2.5rem !important;
+    }
+    .rec{
+        width: 1.275rem !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .active-rec{
+        width: 3.125rem !important;
+    }
+    .rec{
+        width: 1.875rem !important;
+    }
+}
+
+.right-img{
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+}
+
+.or{
+    font-size: 1.25rem;
+}
+
+.or::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    height: 0.0625rem;
+    width: 40%;
+    background: rgba(172, 172, 172, 0.80);
+}
+.or::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 0.0625rem;
+    width: 40%;
+    background: rgba(172, 172, 172, 0.80);
+}
+
+.form-icons{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.form-icons img{
+    width: 2.8125rem !important;
+    height: 2.8125rem !important;
+}
+
